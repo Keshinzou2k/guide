@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jairo Ponce · complete interview guide (STAR+SEAT+protocols) · Xerox/Lexmark</title>
+    <style>
+        /* ===== OBSIDIAN DARK THEME ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1e1e2e;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #d4d4d8;
+            padding: 2rem 1.2rem;
+        }
+
+        .page {
+            max-width: 1100px;
+            margin: 0 auto;
+            background-color: #1e1e2e;
+            border-radius: 28px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+        }
+
+        h1, h2, h3 {
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            color: #f1f5f9;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            border-bottom: 4px solid #3b82f6;
+            display: inline-block;
+            padding-bottom: 0.2rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.8rem;
+            font-weight: 650;
+        }
+
+        h2 {
+            font-size: 2.0rem;
+            border-bottom-color: #3b4252;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            border-bottom: none;
+            margin-bottom: 0.8rem;
+            margin-top: 2rem;
+            color: #cdd6f4;
+            border-left: 6px solid #3b82f6;
+            padding-left: 1rem;
+        }
+
+        .subhead {
+            background-color: #262f3f;
+            color: #b7c9e2;
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            border-radius: 40px;
+            margin: 1rem 0 2.5rem 0;
+            border: 1px solid #3f556b;
+            display: inline-block;
+        }
+
+        .cv-highlight {
+            background-color: #212e3f;
+            border-radius: 20px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #3f5a78;
+            box-shadow: 0 4px 12px #0f172a;
+        }
+
+        .badge {
+            background-color: #1f2d40;
+            border-radius: 40px;
+            padding: 0.3rem 1rem;
+            font-size: 0.85rem;
+            color: #aac3f0;
+            border: 1px solid #3d5780;
+            display: inline-block;
+            margin: 0.25rem 0.15rem;
+        }
+
+        .keyword {
+            background-color: #283445;
+            color: #c1d4ff;
+            padding: 0.3rem 1rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            border: 1px solid #3f5e86;
+            display: inline-block;
+            margin: 0.2rem;
+        }
+
+        .framework-card {
+            background-color: #282a36;
+            border-radius: 28px;
+            padding: 1.8rem 2rem;
+            margin: 1.8rem 0;
+            border: 1px solid #3c4459;
+            box-shadow: 0 8px 18px #0f131e;
+        }
+
+        .framework-header {
+            display: flex;
+            gap: 0.8rem;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .star-label {
+            background-color: #f1c40f;
+            color: #1e1e2e;
+            font-weight: 700;
+            padding: 0.3rem 1.5rem;
+            border-radius: 40px;
+            font-size: 1.3rem;
+            letter-spacing: 1px;
+        }
+
+        .seat-label {
+            background-color: #3b82f6;
+            color: white;
+            font-weight: 700;
+            padding: 0.3rem 1.5rem;
+            border-radius: 40px;
+            font-size: 1.3rem;
+        }
+
+        .question-text {
+            font-size: 1.2rem;
+            font-weight: 450;
+            color: #e6eaf0;
+            border-left: 6px solid #e06c75;
+            padding-left: 1.4rem;
+            margin: 1.2rem 0 1.8rem 0;
+            background-color: #1f2a38;
+            padding: 1rem 1.5rem;
+            border-radius: 0 16px 16px 0;
+        }
+
+        .struct-item {
+            margin-bottom: 1.2rem;
+            border-bottom: 1px dashed #3f4d65;
+            padding-bottom: 0.8rem;
+            display: flex;
+        }
+
+        .struct-letter {
+            font-weight: 700;
+            font-size: 1.3rem;
+            min-width: 45px;
+            color: #f1c40f;
+        }
+
+        .seat-letter {
+            color: #3b82f6;
+        }
+
+        .struct-desc {
+            color: #cedaea;
+            flex: 1;
+        }
+
+        .insight {
+            background-color: #1a2634;
+            border-radius: 16px;
+            padding: 1rem 1.8rem;
+            margin-top: 1.5rem;
+            border-left: 6px solid #6c92c6;
+            font-style: italic;
+        }
+
+        .intro-answer {
+            background: linear-gradient(145deg, #1e2c3e, #1a2535);
+            border-radius: 24px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid #4c6992;
+        }
+
+        .seat-breakdown {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .seat-item {
+            background-color: #243447;
+            border-radius: 20px;
+            padding: 1.2rem;
+            text-align: center;
+            border-top: 6px solid;
+        }
+
+        .seat-item:nth-child(1) { border-top-color: #f1c40f; }
+        .seat-item:nth-child(2) { border-top-color: #3b82f6; }
+        .seat-item:nth-child(3) { border-top-color: #10b981; }
+        .seat-item:nth-child(4) { border-top-color: #8b5cf6; }
+
+        .protocol-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.8rem;
+            margin: 2rem 0;
+        }
+
+        .protocol-card {
+            background-color: #282a36;
+            border-radius: 28px;
+            padding: 1.8rem 1.8rem;
+            border: 1px solid #3c4459;
+            box-shadow: 0 8px 18px #0f131e;
+            transition: transform 0.1s, border-color 0.2s;
+        }
+
+        .protocol-card:hover {
+            border-color: #5f8ad4;
+            transform: translateY(-4px);
+        }
+
+        .protocol-title {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .protocol-icon {
+            font-size: 2.2rem;
+        }
+
+        .protocol-name {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #e2e8f0;
+        }
+
+        .protocol-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0 1.2rem;
+        }
+
+        .tag {
+            background-color: #1f2d40;
+            border-radius: 30px;
+            padding: 0.2rem 1rem;
+            font-size: 0.8rem;
+            color: #b7d0ff;
+            border: 1px solid #3d5780;
+        }
+
+        .analogy {
+            background-color: #1e2b3c;
+            border-radius: 18px;
+            padding: 1.2rem 1.4rem;
+            margin: 1.2rem 0;
+            border-left: 6px solid #f1c40f;
+            font-style: italic;
+        }
+
+        .analogy-title {
+            font-weight: 700;
+            color: #f6d186;
+            margin-bottom: 0.3rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .technical {
+            background-color: #1d2a38;
+            border-radius: 16px;
+            padding: 1rem 1.4rem;
+            margin: 1rem 0;
+            border-left: 6px solid #3b82f6;
+        }
+
+        .your-experience {
+            background-color: #263b4a;
+            border-radius: 16px;
+            padding: 1rem 1.4rem;
+            margin: 1.2rem 0 0.5rem;
+            border-left: 6px solid #10b981;
+            font-size: 0.95rem;
+        }
+
+        .comparison-table {
+            background-color: #212734;
+            border-radius: 24px;
+            padding: 1.8rem 2rem;
+            margin: 2.5rem 0;
+            border: 1px solid #495e7a;
+            overflow-x: auto;
+        }
+
+        .comparison-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .comparison-table th {
+            text-align: left;
+            color: #b7c9e2;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #3f556b;
+        }
+
+        .comparison-table td {
+            padding: 1rem 0.5rem 1rem 0;
+            border-bottom: 1px dashed #364959;
+        }
+
+        .footnote {
+            margin-top: 3.5rem;
+            color: #6f85a5;
+            text-align: center;
+            border-top: 1px dashed #3b4f6b;
+            padding-top: 2rem;
+        }
+
+        @media (max-width:700px){
+            .seat-breakdown{ grid-template-columns:1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- header -->
+        <h1>🧑‍💻 Jairo Ponce · complete interview guide</h1>
+        <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 0.5rem;">
+            <span class="badge" style="font-size:1rem;">Upland Stock Feeds Inc. (2023–present)</span>
+            <span class="badge" style="font-size:1rem;">Xerox/Lexmark · Ref#20037634</span>
+        </div>
+        <div class="subhead">⚡ STAR + SEAT + protocol deep dives (TF-LiDAR Mini, PCF8574T)</div>
+
+        <!-- QUICK CV REFERENCE with updated components -->
+        <div class="cv-highlight">
+            <p style="font-weight:600; color:#c7dcff;">📌 your hardware & protocols (updated):</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+                <span class="keyword">C/C++ · Python</span>
+                <span class="keyword">ESP32/ATMEGA2560</span>
+                <span class="keyword">UART/SPI/I2C</span>
+                <span class="keyword">OTA + rollback system</span>
+                <span class="keyword">FreeRTOS</span>
+                <span class="keyword">MODBUS, MQTT</span>
+                <span class="keyword">TF-LiDAR Mini (UART/I2C)</span>
+                <span class="keyword">PCF8574T I/O expander</span>
+                <span class="keyword">MCP23017</span>
+                <span class="keyword">VFDs, power meters</span>
+                <span class="keyword">SCADA dashboards</span>
+            </div>
+        </div>
+
+        <!-- ===== SEAT SECTION ===== -->
+        <h2>🎤 SEAT · Skills, Experience, Achievements, Type</h2>
+        
+        <!-- SEAT framework explanation -->
+        <div style="background-color:#202837; border-radius:30px; padding:2rem; margin-bottom:2rem;">
+            <div class="seat-breakdown">
+                <div class="seat-item"><h4>🔧 S</h4><p><strong>Skills</strong><br><span style="font-size:0.9rem;">Technical abilities</span></p></div>
+                <div class="seat-item"><h4>💼 E</h4><p><strong>Experience</strong><br><span style="font-size:0.9rem;">Relevant roles</span></p></div>
+                <div class="seat-item"><h4>🏆 A</h4><p><strong>Achievements</strong><br><span style="font-size:0.9rem;">Measurable impact</span></p></div>
+                <div class="seat-item"><h4>👤 T</h4><p><strong>Type of person</strong><br><span style="font-size:0.9rem;">Work style</span></p></div>
+            </div>
+        </div>
+
+        <!-- SEAT "Tell me about yourself" answer -->
+        <div class="intro-answer">
+            <div style="display:flex; gap:1rem; align-items:center; margin-bottom:1.5rem;">
+                <span class="seat-label" style="font-size:1.5rem;">SEAT</span>
+                <span style="color:#d1dbea;">"Tell me about yourself" – 60‑second answer</span>
+            </div>
+            
+            <div class="struct-item">
+                <span class="struct-letter seat-letter">S</span>
+                <span class="struct-desc"><strong>Skills:</strong> Embedded firmware engineer with 2+ years in C/C++, Python, FreeRTOS. Proficient in UART, SPI, I2C, MODBUS, MQTT. Work with ESP32, ATMEGA2560, and hardware debugging (oscilloscope, logic analyzer).</span>
+            </div>
+            
+            <div class="struct-item">
+                <span class="struct-letter seat-letter">E</span>
+                <span class="struct-desc"><strong>Experience:</strong> At Upland Stock Feeds, I design industrial automation – integrating TF-LiDAR Mini (UART/I2C), PCF8574T and MCP23017 I/O expanders, VFDs via MODBUS, and SCADA dashboards with MQTT + WebSocket. Built OTA versioning with rollback.</span>
+            </div>
+            
+            <div class="struct-item">
+                <span class="struct-letter seat-letter">A</span>
+                <span class="struct-desc"><strong>Achievements:</strong> Reduced deployment failures by 40% with OTA rollback system. Improved LiDAR reliability from 70% to 99.5% via SPI debugging. Thesis on ML-based waste segregator (sensor fusion + image classification).</span>
+            </div>
+            
+            <div class="struct-item">
+                <span class="struct-letter seat-letter">T</span>
+                <span class="struct-desc"><strong>Type of person:</strong> Proactive and collaborative – I initiate code reviews, dig into hardware-software boundaries, and adapt quickly. I think system-level, not just my module.</span>
+            </div>
+        </div>
+
+        <!-- ===== STAR ANSWERS ===== -->
+        <h2>⭐ STAR · behavioral questions</h2>
+
+        <!-- STAR 1: Register manipulation (PCF8574T update) -->
+        <div class="framework-card">
+            <div class="framework-header"><span class="star-label">STAR</span></div>
+            <div class="question-text">“Explain how you used register manipulation to control hardware.”</div>
+            <div class="struct-item"><span class="struct-letter">S</span> <span class="struct-desc">At Upland, I controlled pneumatic valves via <strong>PCF8574T</strong> I/O expander over I2C on ESP32.</span></div>
+            <div class="struct-item"><span class="struct-letter">T</span> <span class="struct-desc">Needed individual pin control without disturbing other outputs – timing-critical for feed mixing.</span></div>
+            <div class="struct-item"><span class="struct-letter">A</span> <span class="struct-desc">Used pointer to memory-mapped register: <span style="background:#1d3140; padding:0.2rem 0.5rem;">*(volatile uint8_t*)0x27 |= (1<<3);</span> with <span class="keyword">volatile</span>. Implemented read-modify-write for PCF8574T output latch.</span></div>
+            <div class="struct-item"><span class="struct-letter">R</span> <span class="struct-desc">Achieved deterministic 2ms switching, reused across 3 feeders. Later applied to MCP23017 as well.</span></div>
+        </div>
+
+        <!-- STAR 2: SPI debugging with TF-LiDAR Mini (updated) -->
+        <div class="framework-card">
+            <div class="framework-header"><span class="star-label">STAR</span></div>
+            <div class="question-text">“Walk me through debugging an erratic sensor.”</div>
+            <div class="struct-item"><span class="struct-letter">S</span> <span class="struct-desc">Integrated <strong>TF-LiDAR Mini</strong> with ESP32 over SPI – 30% garbage readings.</span></div>
+            <div class="struct-item"><span class="struct-letter">T</span> <span class="struct-desc">Identify root cause (hardware vs firmware).</span></div>
+            <div class="struct-item"><span class="struct-letter">A</span> <span class="struct-desc">Used oscilloscope – saw ringing on SCK. Slowed SPI to 1MHz, added 100pF caps, added delay after CS assert. Also tried I2C mode on TF-LiDAR Mini but SPI was required for speed.</span></div>
+            <div class="struct-item"><span class="struct-letter">R</span> <span class="struct-desc">Error rate dropped to 0.5%. Documented fix and updated PCB layout guide.</span></div>
+        </div>
+
+        <!-- STAR 3: Python automation -->
+        <div class="framework-card">
+            <div class="framework-header"><span class="star-label">STAR</span></div>
+            <div class="question-text">“Describe using Python to automate testing.”</div>
+            <div class="struct-item"><span class="struct-letter">S</span> <span class="struct-desc">OTA rollback project needed 50+ update cycle tests.</span></div>
+            <div class="struct-item"><span class="struct-letter">T</span> <span class="struct-desc">Manual testing would take 3 days.</span></div>
+            <div class="struct-item"><span class="struct-letter">A</span> <span class="struct-desc">Wrote Python script with pyserial to automate flashing, reboot, version check, logging to SQLite.</span></div>
+            <div class="struct-item"><span class="struct-letter">R</span> <span class="struct-desc">Reduced test time to 4 hours, caught 3 regressions.</span></div>
+        </div>
+
+        <!-- STAR 4: Signal filtering (thesis) -->
+        <div class="framework-card">
+            <div class="framework-header"><span class="star-label">STAR</span></div>
+            <div class="question-text">“Tell me about measuring a noisy signal.”</div>
+            <div class="struct-item"><span class="struct-letter">S</span> <span class="struct-desc">Thesis: waste segregator – inductive sensor noise from conveyor motor.</span></div>
+            <div class="struct-item"><span class="struct-letter">T</span> <span class="struct-desc">Need clean trigger for camera capture.</span></div>
+            <div class="struct-item"><span class="struct-letter">A</span> <span class="struct-desc">Moving average + hysteresis in firmware, 10ms debounce, interrupt filter.</span></div>
+            <div class="struct-item"><span class="struct-letter">R</span> <span class="struct-desc">95% fewer false triggers, classification accuracy improved.</span></div>
+        </div>
+
+        <!-- STAR 5: Code review -->
+        <div class="framework-card">
+            <div class="framework-header"><span class="star-label">STAR</span></div>
+            <div class="question-text">“Handle a disagreement in code review.”</div>
+            <div class="struct-item"><span class="struct-letter">S</span> <span class="struct-desc">Proposed function pointers for MODBUS handler; senior preferred switch-case.</span></div>
+            <div class="struct-item"><span class="struct-letter">T</span> <span class="struct-desc">Agree on maintainable approach.</span></div>
+            <div class="struct-item"><span class="struct-letter">A</span> <span class="struct-desc">Built prototypes, benchmarked, discussed trade-offs, adopted hybrid.</span></div>
+            <div class="struct-item"><span class="struct-letter">R</span> <span class="struct-desc">Accepted solution, easy addition of 3 new sensors later.</span></div>
+        </div>
+
+        <!-- ===== PROTOCOL DEEP DIVES (NEW SECTION) ===== -->
+        <h2>🔌 protocols · explained differently (with your hardware)</h2>
+        <p style="margin-bottom:1.5rem;">Analogies + technical depth + <strong>your direct experience with TF-LiDAR Mini, PCF8574T, MCP23017</strong></p>
+
+        <div class="protocol-grid">
+            <!-- UART -->
+            <div class="protocol-card">
+                <div class="protocol-title"><span class="protocol-icon">📡</span><span class="protocol-name">UART</span></div>
+                <div class="protocol-tags"><span class="tag">asynchronous</span><span class="tag">2 wires</span><span class="tag">RX/TX</span></div>
+                <div class="analogy"><div class="analogy-title">🎙️ walkie-talkie</div>Two people, agreed speed (baud rate). One talks, one listens. Need start/stop bits.</div>
+                <div class="technical"><strong>⚙️ tech:</strong> Start bit, data bits, parity, stop bit. Common baud: 9600, 115200.</div>
+                <div class="your-experience"><strong>✅ your experience:</strong> Used UART with <span class="badge">TF-LiDAR Mini</span> for distance data, and ESP32 console for OTA debug.</div>
+            </div>
+
+            <!-- SPI -->
+            <div class="protocol-card">
+                <div class="protocol-title"><span class="protocol-icon">🔄</span><span class="protocol-name">SPI</span></div>
+                <div class="protocol-tags"><span class="tag">synchronous</span><span class="tag">full duplex</span><span class="tag">4 wires</span></div>
+                <div class="analogy"><div class="analogy-title">👑 royal court</div>King (master) with clock. Chip select lines choose slave. MOSI/MISO.</div>
+                <div class="technical"><strong>⚙️ tech:</strong> SCK, MOSI, MISO, CS. Modes (CPOL/CPHA). Fast (MHz).</div>
+                <div class="your-experience"><strong>✅ your experience:</strong> Debugged <span class="badge">TF-LiDAR Mini</span> SPI issues – saw clock ringing, added caps, reduced speed. Also bit-banged for testing.</div>
+            </div>
+
+            <!-- I2C -->
+            <div class="protocol-card">
+                <div class="protocol-title"><span class="protocol-icon">🔗</span><span class="protocol-name">I2C</span></div>
+                <div class="protocol-tags"><span class="tag">2 wires</span><span class="tag">addressed</span><span class="tag">multi-master</span></div>
+                <div class="analogy"><div class="analogy-title">🏢 office intercom</div>"Room 0x27, respond!" All hear, only addressed replies. Pull-ups keep line high.</div>
+                <div class="technical"><strong>⚙️ tech:</strong> 7-bit addresses, clock stretching, 100kHz/400kHz. Open-drain.</div>
+                <div class="your-experience"><strong>✅ your experience:</strong> Used <span class="badge">PCF8574T</span> (address 0x27) and <span class="badge">MCP23017</span> for I/O expansion. Wrote register-level control for valves and sensors.</div>
+            </div>
+
+            <!-- MODBUS -->
+            <div class="protocol-card">
+                <div class="protocol-title"><span class="protocol-icon">🏭</span><span class="protocol-name">MODBUS</span></div>
+                <div class="protocol-tags"><span class="tag">industrial</span><span class="tag">RTU/TCP</span><span class="tag">register-based</span></div>
+                <div class="analogy"><div class="analogy-title">📋 factory clipboard</div>Master asks slave for holding register 40001 – predefined form. CRC for errors.</div>
+                <div class="technical"><strong>⚙️ tech:</strong> Function codes (3,6,16), CRC-16. RS485 or TCP.</div>
+                <div class="your-experience"><strong>✅ your experience:</strong> Implemented MODBUS RTU on ESP32 for <span class="badge">VFDs, power meters</span>. Built unified handler with function pointers.</div>
+            </div>
+
+            <!-- MQTT -->
+            <div class="protocol-card">
+                <div class="protocol-title"><span class="protocol-icon">☁️</span><span class="protocol-name">MQTT</span></div>
+                <div class="protocol-tags"><span class="tag">publish/subscribe</span><span class="tag">broker</span><span class="tag">QoS</span></div>
+                <div class="analogy"><div class="analogy-title">📰 newspaper subscription</div>Publish to topic "factory/temp1", subscribers get updates. Broker distributes.</div>
+                <div class="technical"><strong>⚙️ tech:</strong> QoS 0,1,2; retain flag; lightweight over TCP.</div>
+                <div class="your-experience"><strong>✅ your experience:</strong> Streamed sensor data from ESP32 to <span class="badge">SCADA dashboard</span> via MQTT + WebSocket. Used for remote valve control.</div>
+            </div>
+        </div>
+
+        <!-- Protocol comparison table -->
+        <div class="comparison-table">
+            <h3 style="margin-top:0;">📊 quick protocol comparison</h3>
+            <table>
+                <tr><th>Protocol</th><th>Wires</th><th>Distance</th><th>Your hardware</th></tr>
+                <tr><td>UART</td><td>2</td><td>short (TTL)</td><td>TF-LiDAR Mini (UART mode), debug</td></tr>
+                <tr><td>SPI</td><td>4</td><td>very short</td><td>TF-LiDAR Mini (SPI mode)</td></tr>
+                <tr><td>I2C</td><td>2</td><td>short</td><td>PCF8574T, MCP23017, temp sensors</td></tr>
+                <tr><td>MODBUS</td><td>2 (RS485)</td><td>long</td><td>VFDs, power meters</td></tr>
+                <tr><td>MQTT</td><td>WiFi/Ethernet</td><td>global</td><td>SCADA dashboard</td></tr>
+            </table>
+        </div>
+
+        <!-- Interview answer pattern -->
+        <div style="background-color:#202d40; border-radius:26px; padding:2rem; margin:2rem 0;">
+            <h3 style="margin-top:0;">🗣️ how to explain protocols in interview</h3>
+            <p><strong>Pattern: Analogy (30s) → Technical (30s) → Your project (30s)</strong></p>
+            <ul style="margin-top:1rem;">
+                <li><strong>I2C example:</strong> "Like an office intercom – devices have addresses. I used PCF8574T at address 0x27 to control valves via register writes."</li>
+                <li><strong>SPI example:</strong> "Royal court with chip selects. I debugged TF-LiDAR Mini SPI by scoping clock and adding capacitors."</li>
+            </ul>
+        </div>
+
+        <!-- SEAT for "Why Xerox?" -->
+        <h2>🎯 SEAT · "Why are you interested in this role?"</h2>
+        <div style="background-color:#202d40; border-radius:26px; padding:2rem; margin:1.5rem 0;">
+            <div class="struct-item"><span class="struct-letter seat-letter">S</span> My <strong>skills</strong> in C/C++, I2C/SPI, and sensor integration match your ASIC interfacing needs.</div>
+            <div class="struct-item"><span class="struct-letter seat-letter">E</span> My <strong>experience</strong> with OTA rollback and industrial protocols (MODBUS, MQTT) translates to printer control and updates.</div>
+            <div class="struct-item"><span class="struct-letter seat-letter">A</span> An <strong>achievement</strong>: reducing LiDAR errors from 30% to 0.5% via signal debugging – relevant to high-speed printer ASICs.</div>
+            <div class="struct-item"><span class="struct-letter seat-letter">T</span> I'm the <strong>type</strong> who digs into hardware-software boundaries and collaborates on code reviews – just like your team.</div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footnote">
+            ⚡ Jairo Ponce · updated with TF-LiDAR Mini (UART/SPI) and PCF8574T (I2C) · Xerox/Lexmark ready<br>
+            Ref#20037634 · #LI-SM1 · #LI-ONSITE
+        </div>
+    </div>
+</body>
+</html>
